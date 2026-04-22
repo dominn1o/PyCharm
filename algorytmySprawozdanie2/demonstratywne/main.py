@@ -2,7 +2,6 @@ from algorytmySprawozdanie import mergesort as mergesort
 import time
 import AVL
 import BST
-import HMIN
 
 # Główne zmienne przechowujące stan programu
 program_dziala = True
