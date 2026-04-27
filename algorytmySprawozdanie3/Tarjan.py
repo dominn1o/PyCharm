@@ -64,4 +64,4 @@ sample_edges = [
     (1, 3),  # Krawędź z 1 do 3
     (3, 4)   # Krawędź z 3 do 4
 ]
-tarjan(n_vertices,sample_edges, 'lk')
+tarjan(n_vertices,sample_edges, 'ms')
