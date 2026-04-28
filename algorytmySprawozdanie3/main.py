@@ -29,3 +29,5 @@ class GraphSorter:
     def tarjan_sort(self):
         # Implementacja DFS z kolorami
         pass
+
+#aa
