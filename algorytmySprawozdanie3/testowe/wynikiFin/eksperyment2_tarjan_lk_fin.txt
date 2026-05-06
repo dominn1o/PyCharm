@@ -1,0 +1,10 @@
+Operacja;Typ;N;Nasycenie;Srednia_ms;Odchylenie_ms
+sortowanie;Lista Krawedzi;1000;0.10;1442.6122;99.9405
+sortowanie;Lista Krawedzi;1000;0.20;2604.2075;74.2495
+sortowanie;Lista Krawedzi;1000;0.30;3863.2644;112.3009
+sortowanie;Lista Krawedzi;1000;0.40;5184.2173;110.9548
+sortowanie;Lista Krawedzi;1000;0.50;6565.9504;192.3073
+sortowanie;Lista Krawedzi;1000;0.60;7812.1097;121.4847
+sortowanie;Lista Krawedzi;1000;0.70;9038.2496;125.8409
+sortowanie;Lista Krawedzi;1000;0.80;10386.2408;187.3769
+sortowanie;Lista Krawedzi;1000;0.90;11638.0122;116.6543
