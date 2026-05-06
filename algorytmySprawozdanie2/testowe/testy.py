@@ -107,7 +107,7 @@ def eksperyment2(struktura_id):
                 avg.calculateAverage(plik_we, plik_wy)
             print("HMIN experiment 1 done")
 
-"""
+
 def wyczysc_pliki():
 
     struktury = [("bst", ["tworzenie", "max", "rownowazenie"]),
@@ -139,7 +139,7 @@ print("Pliki wyczyszczone i foldery przygotowane.")
 for i in range(1, 4):
     eksperyment1(i)
 
-"""
+
 eksperyment1(3)
 for i in range(1, 4):
     eksperyment2(i)
