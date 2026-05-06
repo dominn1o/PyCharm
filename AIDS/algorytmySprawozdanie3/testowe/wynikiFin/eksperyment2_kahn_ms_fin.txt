@@ -1,0 +1,10 @@
+Operacja;Typ;N;Nasycenie;Srednia_ms;Odchylenie_ms
+sortowanie;Macierz Sasiedztwa;1000;0.10;147.4692;3.1487
+sortowanie;Macierz Sasiedztwa;1000;0.20;179.6508;54.6003
+sortowanie;Macierz Sasiedztwa;1000;0.30;178.5089;5.0060
+sortowanie;Macierz Sasiedztwa;1000;0.40;190.1528;4.4930
+sortowanie;Macierz Sasiedztwa;1000;0.50;204.6597;2.2606
+sortowanie;Macierz Sasiedztwa;1000;0.60;214.7592;2.0266
+sortowanie;Macierz Sasiedztwa;1000;0.70;225.5915;11.1772
+sortowanie;Macierz Sasiedztwa;1000;0.80;231.8853;2.7624
+sortowanie;Macierz Sasiedztwa;1000;0.90;239.2180;2.6274
