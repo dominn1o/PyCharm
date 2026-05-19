@@ -1,5 +1,6 @@
 import random
 import itertools
+import time
 
 class Graf():
         def __init__(self, liczbaWierzcholkow, liczbaKrawedzi, edges, problem, skierowany):
@@ -242,6 +243,8 @@ elif zrodlo == 'l':
 graf = Graf(n,m, edges, problem, skierowany)
 graf.display()
 
+start_time = time.perf_counter()
+
 if problem == 'e':
     if rodzajGrafu == 's':
         graf.dec_euler_skierowany()
@@ -252,3 +255,10 @@ elif problem == 'h':
         graf.dhc_hamilton_skierowany_woodall()
     elif rodzajGrafu == 'n':
         graf.dhc_hamilton_nieskierowany_ore()
+
+end_time = time.perf_counter()
+czas_wykonania = end_time - start_time
+
+# Formatowanie czasu do postaci sekund z wysoką precyzją
+print(f"Czas wykonania algorytmu decyzyjnego: {czas_wykonania:.6f} s")
+print("===============================")

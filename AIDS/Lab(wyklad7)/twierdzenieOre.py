@@ -2,7 +2,6 @@ import sys
 import random
 
 #sprawdzanie czy w grafie istnieje cykl hamiltona
-
 class Graf:
     def __init__(self, n, edges, mode):
         self.n = n
