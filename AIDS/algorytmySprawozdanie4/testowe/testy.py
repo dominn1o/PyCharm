@@ -67,15 +67,15 @@ def usun_katalogi():
 
 
 if __name__ == "__main__":
-    usun_katalogi()
+    #usun_katalogi()
 
     # --- BEZPIECZNE ZAKRESY WIELKOŚCI N DLA PYTHON ---
     # Zamiast 5000 (gdzie tworzenie macierzy trwa wieczność), używamy mniejszych skoków liniowych.
-    n_vals_dec = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
-    n_vals_dhc = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
+    n_vals_dec = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    n_vals_dhc = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
-    n_vals_sec = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-    n_vals_shc = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    n_vals_sec = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    n_vals_shc = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
     # Zakresy nasyceń
     nasycenia_exp1 = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
@@ -83,16 +83,16 @@ if __name__ == "__main__":
 
     # --- EKSPERYMENT 1 (Losowe grafy) ---
     print("\n=== Start Eksperymentu 1 ===")
-    uruchom_pojedynczy_algorytm(n_vals_dec, nasycenia_exp1, alg='DEC', is_exp2=False)
+    #uruchom_pojedynczy_algorytm(n_vals_dec, nasycenia_exp1, alg='DEC', is_exp2=False)
     uruchom_pojedynczy_algorytm(n_vals_dhc, nasycenia_exp1, alg='DHC', is_exp2=False)
 
     # Backtracking musi lecieć na mniejszych instancjach
-    uruchom_pojedynczy_algorytm(n_vals_sec, nasycenia_exp1, alg='SEC', is_exp2=False)
+    #uruchom_pojedynczy_algorytm(n_vals_sec, nasycenia_exp1, alg='SEC', is_exp2=False)
     uruchom_pojedynczy_algorytm(n_vals_shc, nasycenia_exp1, alg='SHC', is_exp2=False)
 
     # --- EKSPERYMENT 2 (Grafy z cyklem) ---
     print("\n=== Start Eksperymentu 2 ===")
-    uruchom_pojedynczy_algorytm(n_vals_sec, nasycenia_exp2, alg='SEC', is_exp2=True)
+    #uruchom_pojedynczy_algorytm(n_vals_sec, nasycenia_exp2, alg='SEC', is_exp2=True)
     uruchom_pojedynczy_algorytm(n_vals_shc, nasycenia_exp2, alg='SHC', is_exp2=True)
 
     # --- AGREGACJA ---
