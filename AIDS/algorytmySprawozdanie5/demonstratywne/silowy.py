@@ -37,7 +37,7 @@ class Plecak():
                     obecny_rozmiar += przedmiot[1]
                     obecna_uzytecznosc += przedmiot[2]
 
-            # Sprawdzamy czy konfiguracja nie przekracza pojemności (rozwiązanie dopuszczalne)
+            # Sprawdzamy czy konfiguracja ni e przekracza pojemności (rozwiązanie dopuszczalne)
             if obecny_rozmiar <= self.b:
                 rozwiazania_dopuszczalne += 1
 
